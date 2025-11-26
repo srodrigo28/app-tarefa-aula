@@ -1,8 +1,42 @@
-# React + Vite
+# 🚀 React App – Projeto Impressionador
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação React moderna estruturada com boas práticas, uso de componentes reutilizáveis, estilo com Sass e pronta para futura integração com **Json-Server** e **Zod**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tecnologias Utilizadas
+
+#### React App JSX
+
+- [x] **React 18**
+- [x] **Sass**
+- [x] **Components**
+- [ ] **Json-Server** (em desenvolvimento)
+- [ ] **Zod** (em desenvolvimento)
+
+---
+
+## 🖥️ Preview das Telas
+
+### 🏠 Home
+<img src="./preview/home.png" alt="Home" />
+
+### ✏️ Home – Input Focus
+<img src="./preview/input-hover.png" alt="Input em foco" />
+
+---
+
+## ▶️ Como Rodar o Projeto
+
+```bash
+# Instalar dependências
+npm install
+
+# Rodar o projeto
+npm run dev
+
+src/
+  ├── components/
+  ├── pages/
+  ├── assets/
+  └── App.jsx
