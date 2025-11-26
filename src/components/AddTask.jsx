@@ -1,0 +1,25 @@
+import { useState } from "react";
+
+import CustomInput from "./CustomInput";
+import "./CustomInput.scss"
+
+const AddTask = () => {
+    const [task, setTask] = useState("")
+
+    const onChange = (e) => {
+        setTask(e.target.value);
+        console.log(e.target.value)
+    }
+
+    return(
+        <div className="add-task-container">
+            <CustomInput 
+                value={task}
+                onChange={onChange}
+                label="Adicionar tarefa ..."
+            />
+        </div>
+    )
+}
+
+export default AddTask;
